@@ -31,17 +31,14 @@
 				"ms-vscode.cpptools-extension-pack",
 				"GitHub.vscode-pull-request-github",
 				"GitHub.codespaces",
-				// "GitHub.remotehub",
-				// "eamodio.gitlens",
 				"llvm-vs-code-extensions.vscode-clangd",
 				"ms-vscode.cmake-tools",
 				"vadimcn.vscode-lldb",
 				"tdennis4496.cmantic",
-				// "ms-azuretools.vscode-docker",
-				// "jbenden.c-cpp-flylint",
 				"GitHub.copilot",
 				"GitHub.copilot-chat",
-				"GitHub.vscode-github-actions"
+				"GitHub.vscode-github-actions",
+				"franneck94.c-cpp-runner"
 			]
 		}
 	}
