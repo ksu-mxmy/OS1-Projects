@@ -34,13 +34,15 @@
 # build
 build/*
 CMakeFiles/*
-*/CMakeFiles/*
-*/build/*
+**/CMakeFiles/*
+**/build/*
 Makefile
 CMakeCache.txt
-cmake_install.cmake
+*.cmake
+*.marks
 */Makefile
 */CMakeCache.txt
-*/cmake_install.cmake
-DartConfiguration.tcl
-CTestTestfile.cmake
+*.tcl
+*.check_cache
+*.log
+*.bin
