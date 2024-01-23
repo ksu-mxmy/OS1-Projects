@@ -30,3 +30,17 @@
 *.exe
 *.out
 *.app
+
+# build
+build/*
+CMakeFiles/*
+*/CMakeFiles/*
+*/build/*
+Makefile
+CMakeCache.txt
+cmake_install.cmake
+*/Makefile
+*/CMakeCache.txt
+*/cmake_install.cmake
+DartConfiguration.tcl
+CTestTestfile.cmake
