@@ -18,7 +18,8 @@
 				"files.insertFinalNewline": true,
 				"[makefile]": {
 					"editor.insertSpaces": false,
-					"editor.detectIndentation": false
+					"editor.detectIndentation": false,
+					"C_Cpp.intelliSenseEngine": "disabled"
 				}
 			},
 			// Add the IDs of extensions you want installed when the container is created.
@@ -35,9 +36,10 @@
 				"vadimcn.vscode-lldb",
 				"tdennis4496.cmantic",
 				// "ms-azuretools.vscode-docker",
-				"jbenden.c-cpp-flylint",
+				// "jbenden.c-cpp-flylint",
 				"GitHub.copilot",
-				"GitHub.copilot-chat"
+				"GitHub.copilot-chat",
+				"GitHub.vscode-github-actions"
 			]
 		}
 	}
