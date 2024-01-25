@@ -12,7 +12,11 @@ RUN if [ "${REINSTALL_CMAKE_VERSION_FROM_SOURCE}" != "none" ]; then \
 
 # [Optional] Uncomment this section to install additional vcpkg ports.
 # RUN su vscode -c "${VCPKG_ROOT}/vcpkg install <your-port-name-here>"
-RUN su vscode -c "${VCPKG_ROOT}/vcpkg install gtest"
+# RUN su vscode -c "cp .devcontainer/vcpkg.json ${VCPKG_ROOT}/vcpkg.json"
+# RUN su vscode -c "${VCPKG_ROOT}/vcpkg install --feature-flags=manifests"
+RUN su vscode -c "${VCPKG_ROOT}/vcpkg install gtest && ${VCPKG_ROOT}/vcpkg integrate install" 
+
 # [Optional] Uncomment this section to install additional packages.
 RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
     && apt-get -y install --no-install-recommends valgrind gdb
+

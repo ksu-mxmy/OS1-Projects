@@ -1,6 +1,11 @@
 #include <cstdlib>
 #include <iostream>
 #include <sys/wait.h>
+extern "C" {
+	#include "../include/module.h"
+}
+
+#include <gtest/gtest.h>
 
 int main()
 {
