@@ -45,4 +45,7 @@ CMakeCache.txt
 *.tcl
 *.check_cache
 *.log
-*.bin
+**.DS_Store
+googletest-*
+**vcpkg_installed
+Testing/*

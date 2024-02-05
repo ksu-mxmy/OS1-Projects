@@ -1,0 +1,10 @@
+{
+  "name": "OS1 project",
+  "version-string": "0.0.1",
+  "dependencies": [
+    {
+      "name": "gtest",
+      "version": "1.10.0"
+    }
+  ]
+}

@@ -35,9 +35,9 @@
 				"ms-vscode.cmake-tools",
 				"vadimcn.vscode-lldb",
 				"tdennis4496.cmantic",
-				// "GitHub.copilot",
-				// "GitHub.copilot-chat",
-				// "GitHub.vscode-github-actions",
+				"GitHub.copilot",
+				"GitHub.copilot-chat",
+				"GitHub.vscode-github-actions",
 				"franneck94.c-cpp-runner",
 				"ErikParawell.extension-pack-for-environment-modules",
 				"Gruntfuggly.todo-tree"
