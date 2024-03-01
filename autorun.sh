@@ -1,4 +1,6 @@
 #!/bin/bash
+# chmod +x autorun.sh
+
 # ./autorun.sh "suites|PASSED" "sstring" "arrays" "bits" "system_programming"
 
 # grepmode=${1:-"."} #"suites|PASSED"
