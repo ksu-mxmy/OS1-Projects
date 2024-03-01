@@ -20,8 +20,8 @@
 				"files.insertFinalNewline": true,
 				"[makefile]": {
 					"editor.insertSpaces": false,
-					"editor.detectIndentation": false,
-					"C_Cpp.intelliSenseEngine": "disabled"
+					// "C_Cpp.intelliSenseEngine": "disabled",
+					"editor.detectIndentation": false
 				}
 			},
 			// Add the IDs of extensions you want installed when the container is created.
@@ -31,7 +31,7 @@
 				"ms-vscode.cpptools-extension-pack",
 				"GitHub.vscode-pull-request-github",
 				"GitHub.codespaces",
-				"llvm-vs-code-extensions.vscode-clangd",
+				// "llvm-vs-code-extensions.vscode-clangd",
 				"ms-vscode.cmake-tools",
 				"vadimcn.vscode-lldb",
 				"tdennis4496.cmantic",
