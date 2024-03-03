@@ -31,7 +31,6 @@
 				"ms-vscode.cpptools-extension-pack",
 				"GitHub.vscode-pull-request-github",
 				"GitHub.codespaces",
-				// "llvm-vs-code-extensions.vscode-clangd",
 				"ms-vscode.cmake-tools",
 				"vadimcn.vscode-lldb",
 				"tdennis4496.cmantic",
@@ -40,7 +39,8 @@
 				"GitHub.vscode-github-actions",
 				"franneck94.c-cpp-runner",
 				"ErikParawell.extension-pack-for-environment-modules",
-				"Gruntfuggly.todo-tree"
+				"Gruntfuggly.todo-tree",
+				"MS-vsliveshare.vsliveshare"
 			]
 		}
 	}
